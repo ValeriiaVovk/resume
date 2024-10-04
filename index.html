@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Porfolio Valeriia</title>
+</head>
+<body>
+    <header class="header container">
+        <a href="#" class="header__logo">
+            MyPortfolio
+        </a>
+        <nav class="header__navigation">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="burger-menu">
+            <div class="menu"></div>
+            <div class="menu"></div>
+            <div class="menu"></div>
+        </div>
+    </header>
+
+    <main class="container home">
+        <div class="home__main-info">
+            <p class="home__main-info__position">Junior Frontend Developer</p>
+            <h1>Hello I'm <br> <span>Valeriia Kutsenko</span></h1>
+            <p class="home__main-info__about">I am a junior front-end developer. I want to find a good, remote job in the position of
+                intern/trainee/junior front-end developer in order to expand my knowledge and bring benefit to
+                the company.
+                I have no work experience, but I did various projects during my studies to improve my skills.
+                Used such technologies as HTML, CSS, SASS, JS, React.
+            </p>
+            <div class="home__main-info__btns">
+                <a href="./assets/Valeriia_Kutsenko.pdf" class="home__main-info__btns-downcv" download>Download CV <ion-icon name="cloud-download-outline"></ion-icon></a>
+                <div class="home__main-info__btns-social">
+                    <a href="https://github.com/ValeriiaVovk" target="_blank">
+                        <img src="./assets/icon/github.png" alt="github icon">
+                    </a>
+                    <a href="https://t.me/ValeriiaVovk" target="_blank">
+                        <img src="./assets/icon/telegram.png" alt="telegram icon">
+                    </a>
+                    <a href="https://wa.me/380631390943" target="_blank">
+                        <img src="./assets/icon/whatsapp.png" alt="whatsapp icon">
+                    </a>
+                    <a href="mailto: kutsenko.valeriia.work@gmail.com" target="_blank">
+                        <img src="./assets/icon/gmail.png" alt="gmail icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="home__main-photo">
+            <img src="./assets/sticker2.webp" alt="">
+            <!-- <div class="circle-border"></div> -->
+        </div>
+    </main>
+
+    <script src="./js/burger.js"></script>
+</body>
+</html>

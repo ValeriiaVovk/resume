@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Porfolio Valeriia - Resume</title>
+</head>
+<body>
+    <header class="header container">
+        <a href="index.html" class="header__logo">
+            MyPortfolio
+        </a>
+        <nav class="header__navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html" class="active">Resume</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="burger-menu">
+            <div class="menu"></div>
+            <div class="menu"></div>
+            <div class="menu"></div>
+        </div>
+    </header>
+
+    <main class="container resume">
+        <div class="resume__parts">
+            <h1>My resume</h1>
+            <div class="resume-mobile">
+                <input type="radio" name="resume-part" id="experience" value="experience" checked>
+                <label for="experience">Experience</label>
+                <input type="radio" name="resume-part" id="education" value="education">
+                <label for="education">Education</label>
+                <input type="radio" name="resume-part" id="skills" value="skills">
+                <label for="skills">Skills</label>
+                <input type="radio" name="resume-part" id="languages" value="languages">
+                <label for="languages">Languages</label>
+            </div>
+        </div>
+        <div class="resume__details">
+            <h3>My education</h3>
+            <div class="resume__details-wrap">
+                <p>I am a motivated and passionate frontend developer with a solid understanding of modern web technologies. </p>
+                <p>While I am new to the industry and currently lack commercial experience, I have completed educational projects that demonstrate my ability to create responsive and interactive web applications. </p>
+                <p>These projects showcase my proficiency in HTML, CSS, JavaScript, and are available for review on <a href="./work.html" class="link-to-work">this page</a>.</p>
+                <p>I am eager to contribute to a team and continue learning in a professional environment.</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/resume.js"></script>
+    <script src="./js/burger.js"></script>
+</body>
+</html>
